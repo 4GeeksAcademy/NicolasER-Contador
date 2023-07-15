@@ -7,10 +7,14 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = (props) => {
 
 	return (
-		<div className="text-center">
-			<p>{props.unidad}</p>
-			<p>{props.decimal}</p>
-			<p>{props.centenas}</p>
+		<div className="d-inline-flex flex-rowtext-center">
+			<p></p>
+			<p className="p-2">{props.cienMiles}</p>
+			<p className="p-2">{props.diezMiles}</p>
+			<p className="p-2">{props.miles}</p>
+			<p className="p-2">{props.centenas}</p>
+			<p className="p-2">{props.decimal}</p>
+			<p className="p-2">{props.unidad}</p>
 		</div>
 	);
 };

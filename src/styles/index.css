@@ -10,3 +10,13 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+div {
+    background-color: black;
+}
+
+p {
+    color: white;
+    background-color: rgb(46, 46, 46);
+    border-radius: 5px;
+    margin: 5px;
+}
